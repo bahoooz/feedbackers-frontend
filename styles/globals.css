@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Candu";
+  src: url("/fonts/Candu/Candu Rounded Regular.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Candu";
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* @media screen and (min-width: 430px) {
+  html {
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    height: 90dvh;
+    max-width: 430px;
+    border: 5px solid black;
+    border-radius: 50px;
+    position: relative;
+  }
+} */
